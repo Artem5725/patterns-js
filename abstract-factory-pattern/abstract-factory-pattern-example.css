@@ -1,0 +1,11 @@
+.header__card {
+    border: 2px dashed red;
+    background-color: orange;
+    color: white;
+}
+
+.footer__card {
+    border: 1px solid black;
+    background-color: darkblue;
+    color: cyan;
+}
