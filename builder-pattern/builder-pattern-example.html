@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Builder</title>
+</head>
+<body>
+<section id="sec-to-draw-block">
+    <input type="number" max="300" min="100" id="create-width">
+    <label for="create-width"> Укажите ширину</label><br>
+    <input type="number" max="400" min="100" id="create-height">
+    <label for="create-height"> Укажите высоту </label><br>
+    <select id="create-background-color">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+    </select>
+    <label for="create-background-color"> Цвет фона </label><br>
+    <select id="create-border-color">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+    </select>
+    <label for="create-border-color"> Цвет фона </label><br>
+    <button type="button" id="btn-create">Создать</button>
+</section>
+<script type="module" src="builder-pattern-example.mjs"></script>
+</body>
+</html>
